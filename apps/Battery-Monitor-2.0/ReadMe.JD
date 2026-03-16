@@ -1,0 +1,20 @@
+# Battery Monitor 2.0 for Hubitat
+
+**Author:** Jdthomas24  
+**Namespace:** jdthomas24  
+**Version:** 2.0  
+
+## Description
+Advanced Hubitat battery monitoring with analytics, trends, and replacement tracking. Auto-discover devices, monitor battery health, track replacements, and receive daily reports.
+
+## Installation
+- Install via Hubitat Package Manager.
+- Auto-discover battery devices and select which devices to monitor.
+- Configure daily summary time and notifications.
+- Monitor battery trends and replacement history.
+
+## Notes
+- Battery trends may be overestimated until at least 5 battery events have been reported.
+- Auto discovery must be used to select which devices to monitor.
+- Daily report sorts devices by Critical, Good, and Full categories for easy reading.
+- Manual battery replacement can be tracked via the Replacement page.
