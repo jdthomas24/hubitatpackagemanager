@@ -1,1 +1,31 @@
+**HPM PR Reviewer Checklist – Battery Monitor 2.0**
+
+App Metadata
+- Name: Battery Monitor 2.0
+- Namespace: jdthomas24
+- Version: 2.0
+- Category: Convenience
+- Author: Jdthomas24
+
+Functionality
+- Auto-discovery of battery devices implemented
+- Battery monitoring includes: health, drain, estimated days
+- Daily summary reports sorted by Critical, Good, Full
+- Battery trends tracked with note for insufficient events
+- Battery replacements tracked via Replacement page
+- Notifications configurable (push/device)
+
+HPM Compliance
+- JSON manifest present (Battery Monitor 2.0.json)
+- JSON points to valid GitHub raw URL
+- Required capabilities listed (Battery, Notification)
+- Pages defined: mainPage, summaryPage, trendsPage, historyPage
+- Notes included in JSON for end-users
+- Versioning correct for future updates
+
+Other Notes
+- README.md included with installation and usage instructions
+- No license specified (per author decision)
+- App tested to work with Hubitat HPM installation
+- Future updates will appear in HPM when "packageVersion" is incremented
 
